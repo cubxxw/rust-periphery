@@ -1,0 +1,21 @@
+[package]
+name          = "periphery"
+version       = "0.0.0"
+license       = "MIT"
+authors       = ["danc <dangcheng@hotmail.com>"]
+description   = "A Rust library for peripheral I/O (GPIO, PWM, SPI, I2C, MMIO, Serial) in Linux."
+documentation = "https://docs.rs/periphery"
+homepage      = "https://github.com/danclive/nson"
+repository    = "https://github.com/danclive/nson"
+readme        = "README.md"
+keywords      = ["periphery", "pi", "hal", "raspberry"]
+categories    = ["embedded", "hardware-support"]
+edition       = "2018"
+exclude       = [
+  ".gitignore",
+  ".travis.yml",
+  "deploy.sh",
+  "test/**/*",
+]
+
+[dependencies]
