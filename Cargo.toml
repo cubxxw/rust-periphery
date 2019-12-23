@@ -1,9 +1,9 @@
 [package]
 name          = "periphery"
-version       = "0.0.0"
+version       = "0.1.0"
 license       = "MIT"
 authors       = ["danc <dangcheng@hotmail.com>"]
-description   = "A Rust library for peripheral I/O (GPIO, PWM, SPI, I2C, MMIO, Serial) in Linux."
+description   = "A Rust library for peripheral I/O (GPIO, PWM, SPI, I2C, MMIO) in Linux."
 documentation = "https://docs.rs/periphery"
 homepage      = "https://github.com/danclive/nson"
 repository    = "https://github.com/danclive/nson"
@@ -19,3 +19,4 @@ exclude       = [
 ]
 
 [dependencies]
+libc = "0.2"
